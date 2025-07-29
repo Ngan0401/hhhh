@@ -1,0 +1,40 @@
+body {
+    margin-top: 12%;
+    font-family: Helvetica;
+    background-color: #D5EBF8;
+}
+
+#signin {
+    height: 300px;
+    width: 325px;
+    margin: auto;
+    padding: 20px 20px 25px 25px;
+    background-color: #FFFFFF;
+    border-radius: 5px;
+    border: none;
+}
+
+#login_form {
+    margin-bottom: 20px;
+}
+
+input {
+    width: 310px;
+    height: 30px;
+}
+
+button {
+    width: 320px;
+    padding: 10px 15px;
+    margin-top: 8px;
+    background-color: #007CFF;
+    border: none;
+    border-radius: 4px;
+    font-size: 16px;
+    color: #FFFFFF;
+    cursor: pointer;
+}
+
+#link {
+    margin-top: 20px;
+}

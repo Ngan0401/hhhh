@@ -1,0 +1,67 @@
+body {
+    font-family: Arial;
+    background-image: linear-gradient(to top right, #8A52A3, #66A2CD);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    margin: 0;
+}
+
+.profile-card {
+    background-color: rgba(255, 255, 255, 0.2);
+    border-radius: 10px;
+    width: 300px;
+    padding: 25px;
+    text-align: center;
+}
+
+img {
+    width: 300px;
+    height: 200px;
+    border-radius: 100%;
+    border: solid 5px white;
+}
+
+.name {
+    margin-top: 20px;
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 5px;
+    color: #ff0000;
+}
+
+.title {
+    font-size: 16px;
+    color: #000000;
+    margin-bottom: 20px;
+}
+
+.bio {
+    font-size: 14px;
+    color: #444;
+    line-height: 1.5;
+    margin-bottom: 25px;
+}
+
+.social-links {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+}
+
+.social-link {
+    height: 30px;
+    width: 50px;
+    padding-top: 15px;
+    background-color: white;
+    border: none;
+    border-radius: 50%;
+    color: #333;
+    font-weight: bold;
+}
+
+.social-link:hover {
+    color: #8A52A3
+        /* màu khi click vô link aka hover */
+}
